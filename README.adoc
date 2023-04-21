@@ -1,0 +1,30 @@
+= What does this application do?
+
+This is a Python implementation for creating a model that can generate new poems based on a given input. The model is trained on a corpus of existing poems and learns to predict the next word in a sequence based on the previous words. This is achieved through the use of natural language processing techniques such as tokenization, word embeddings, and recurrent neural networks like Simple RNN & LSTM (Long Short-Term Memory) that can retain and learn from contextual information. The ultimate goal of this project is to create a model that can generate new, meaningful and creative poems that resonate with the reader.
+
+
+=== Technical Details
+- Python Documentation: link:https://www.python.org/[Python]
+- Version control: git
+- IDE: Pycharm (Pure Python Project with venv)
+
+== Libraries used
+- `numpy` provides support for multidimensional arrays and matrices, and is used for numerical operations.
+- `pandas` library is used for data manipulation and analysis.
+- `matplotlib` library is used for creating visualizations.
+- `tensorflow.keras.utils` library is used to convert class vectors (integers) to binary class matrix.
+- `wordcloud` library is used to generate a wordcloud visualization of the text data.
+- `tensorflow.keras.preprocessing.sequence` library is used for preparing input sequences for the model.
+- `tensorflow.keras.layers` library provides support for building neural network models, and is used to define the layers of the model.
+- `tensorflow.keras.preprocessing.text` library is used to convert text data into sequences and tokens.
+- `tensorflow.keras.models` library is used to define the model architecture.
+- `tensorflow.keras.optimizers` library is used to configure the learning process.
+- `tensorflow.keras.regularizers` library is used to define regularization functions to prevent over-fitting.
+
+
+== Developer Guide to run the code locally
+==== `git clone https://github.com/kalyansagi/artificial-intelligence-project.git`
+
+==== `cd /artificial-intelligence-project`
+
+==== `git checkout master`
